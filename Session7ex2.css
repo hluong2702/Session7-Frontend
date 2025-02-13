@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+    background-color:#F3F2F6 ;
+}
+
+.container .component{
+    border: 0.5px solid;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container .component .title{
+    color: red;
+    padding: 40px 40px 20px 40px;
+}
+
+.container .component .content{
+    padding: 0px 40px 20px 40px;
+}
+
+.container td{
+    padding: 5px;
+}

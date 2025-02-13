@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .header{
+    display: flex;
+}
+
+.container .header img{
+    width: 2%;
+}
+
+.container .header h2{
+    margin-left: 5px;
+}
+
+.container .header {
+    padding-bottom: 20px;
+}
+
+.container .body img{
+    width: 30%;
+}
+
+.container .body .h3{
+    padding-top: 20px;
+}
+
+.container .footer{
+    margin-top: 10px;    
+}
+
+.container .footer .content{
+    padding-top: 10px;
+     color: #535353;
+}
+
+.container .footer b{
+    color: #41455E;
+
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .header{
+    border-left: 5px solid #FF6116;
+}
+
+.container h2{
+    margin-left: 10px;
+}
+.container .body{
+    padding-top: 30px;
+}
+
+.container .body p{
+    position: absolute;
+    margin-top: -150px;
+    font-size: 24px;
+    color: white;
+}
+
+.container .diven{
+    border: 1px solid gray;
+    margin: 12px 0;
+    width: 350px;
+}
+
+.container .paragraph{
+    font-size: 15px;
+}
+.container .footer .neww{
+    font-size: 15px;
+}
+
+.container .footer{
+    padding-top: 20px;
+}

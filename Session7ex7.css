@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form-container{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.form-container .form-header{
+    position: relative;
+    padding: 20px 24px;
+}
+
+
+.form-container .form-header h3{
+    font-size: 25px;
+    font-weight: 100px;
+    display: inline-block;
+}
+
+.form-container .form-body{
+    padding: 20px 24px;
+}
+
+.form-container .form-header .closeIcon{
+    position: absolute;
+    right: 10px;
+    font-size: 40px;
+}
+
+.form-container .diven{
+    border-bottom: 1px solid grey;
+    margin: 12px 0;
+}
+
+.form-container .form-body .form-group1{
+    margin-bottom: 30px;
+}
+
+.form-container .form-body .form-group1 .recipient{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.form-container .form-body .form-group1 #recipient{
+    width: 100%;
+}
+
+.form-container .form-body .form-group2 .message{
+    display: block;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.form-container .form-body .form-group2 #message{
+    width: 100%;
+    padding-top: 5px;
+}
+
+
+.form-container .form-body .form-group #username{
+    width: 100%;
+    padding-top: 5px;
+}
+
+.form-container .form-footer{
+    text-align: right; /* Căn toàn bộ nội dung trong footer sang phải */
+    
+}
+
+.form-container .form-footer .closeButton{
+    background-color: grey;
+    border-radius: 8px;
+    border: transparent;
+    padding: 10px;
+    color: white;
+}
+
+.form-container .form-footer .sendButton{
+    padding: 10px;
+    background-color: #0D6EFD;
+    border-radius: 8px;
+    border: transparent;
+    color: white;
+}
+
+.form-container .form-footer .button{
+    padding: 10px;
+
+}
